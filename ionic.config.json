@@ -1,5 +1,7 @@
 {
   "name": "ionic-ui-booking-system",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

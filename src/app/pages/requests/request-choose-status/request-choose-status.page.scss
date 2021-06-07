@@ -1,0 +1,56 @@
+ion-content {
+    --background: #f1f5f8;
+    // --background: #fff;
+   padding-left: 50px;
+   padding-right: 20px;
+
+   .upper {
+       background: #f1f5f8;
+   
+       h2 {
+           font-family: "Helvetica";
+           color: #000;
+           font-size: 18px;
+           padding-left: 20px;
+       }
+
+       h4 {
+            font-family: "Helvetica";
+            color: #000;
+            font-size: 12px;
+            padding-left: 20px;
+        }
+   }
+   
+   ion-icon {
+       color: #3880ff;
+   }
+
+   .cointainer{
+       background: #f1f5f8;
+       color: #f1f5f8;
+
+       ion-card {
+           background: #fff;
+
+           ion-icon {
+            color: #3880ff;
+        }
+   
+       }
+
+       ion-item {
+           --background: #fff;
+
+           ion-input {
+               height: 50px;
+               width: 50px;
+               background-color: #fff;
+               --placeholder-color: #000;
+               --color: #000;
+           }
+       }
+
+   }  //end of cointaner
+
+}

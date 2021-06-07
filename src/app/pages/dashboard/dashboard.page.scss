@@ -1,0 +1,45 @@
+ion-content {
+     --background: #f1f5f8;
+    // --background: #fff;
+    padding-left: 50px;
+    padding-right: 20px;
+
+    .upper {
+        background: #f1f5f8;
+    
+        h2 {
+            font-family: "Helvetica";
+            color: #000;
+            padding-left: 20px;
+            font-size: 18px;
+        }
+    }
+    
+    ion-icon {
+        color: #000;
+    }
+
+    .cointainer{
+        background: #f1f5f8;
+        color: #f1f5f8;
+
+        ion-card {
+            background: #fff;
+    
+        }
+
+        ion-item {
+            --background: #fff;
+
+            ion-input {
+                height: 50px;
+                width: 50px;
+                background-color: #fff;
+                --placeholder-color: #000;
+                --color: #000;
+            }
+        }
+
+    }
+
+}
