@@ -1,11 +1,11 @@
 ion-content {
-    --background: #f1f5f8;
-   // --background: #fff;
+    //--background: #f1f5f8;
+    --background: #fff;
    padding-left: 50px;
    padding-right: 20px;
 
    .upper {
-       background: #f1f5f8;
+       background: #fff;
    
        h2 {
            font-family: "Verdana";
@@ -66,8 +66,23 @@ ion-content {
 
        }
 
-       
+       .forgetPassword {
+
+
+        ion-button {
+            --border-color: #ffffff;
+            --color: #000;
+
+            h2 {
+                font-size: 10px;
+            } 
+
+        }
+
+       }
 
    }
 
 }
+
+
