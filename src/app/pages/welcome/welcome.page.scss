@@ -10,6 +10,7 @@ ion-content{
   ion-card{
     background-color: transparent !important;
     padding: 0 !important;
+    box-shadow: none !important;
   }
   
   ion-card-title{
@@ -30,11 +31,6 @@ ion-content{
   
   ion-header{
     position: absolute;
-  }
-  
-  ion-card{
-    --ion-background-color:transparent;
-  box-shadow: none !important;
   }
   
   .container {
